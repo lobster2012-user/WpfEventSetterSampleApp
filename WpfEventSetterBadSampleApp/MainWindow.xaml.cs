@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfEventSetterSampleApp
+namespace WpfEventSetterBadSampleApp
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,14 +23,28 @@ namespace WpfEventSetterSampleApp
         public MainWindow()
         {
             InitializeComponent();
-            this.Button.AddHandler(
-               UIElement.MouseDownEvent,
-                new RoutedEventHandler(Handler));
+            this.Loaded += MainWindow_Loaded;
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var style = new Style(typeof(Button));
+                style.Setters.Add(new EventSetter(UIElement.MouseDownEvent,
+                    new RoutedEventHandler(Handler)));
+                Button.Style = style;
+            }
+            catch (Exception ex)
+            {
+                this.Content = ex.ToString();
+            }
         }
 
         private void Handler(object sender, EventArgs e)
         {
             MessageBox.Show(e.GetType().ToString());
         }
+
     }
 }

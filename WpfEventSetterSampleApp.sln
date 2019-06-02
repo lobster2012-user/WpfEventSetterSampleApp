@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEventSetterSampleApp", "WpfEventSetterSampleApp\WpfEventSetterSampleApp.csproj", "{4F99049A-9FFC-4B4D-9DEB-C2F17929C6C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEventSetterBadSampleApp", "WpfEventSetterBadSampleApp\WpfEventSetterBadSampleApp.csproj", "{67D834B4-1A09-4E99-B1DB-A18C8C45355F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4F99049A-9FFC-4B4D-9DEB-C2F17929C6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F99049A-9FFC-4B4D-9DEB-C2F17929C6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F99049A-9FFC-4B4D-9DEB-C2F17929C6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D834B4-1A09-4E99-B1DB-A18C8C45355F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D834B4-1A09-4E99-B1DB-A18C8C45355F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D834B4-1A09-4E99-B1DB-A18C8C45355F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D834B4-1A09-4E99-B1DB-A18C8C45355F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

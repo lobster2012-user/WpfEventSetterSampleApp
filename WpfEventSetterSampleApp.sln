@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEventSetterSampleApp", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEventSetterBadSampleApp", "WpfEventSetterBadSampleApp\WpfEventSetterBadSampleApp.csproj", "{67D834B4-1A09-4E99-B1DB-A18C8C45355F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateTests", "DelegateTests\DelegateTests.csproj", "{3443F829-27BD-4C9B-A0A2-A54065E7770D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{67D834B4-1A09-4E99-B1DB-A18C8C45355F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D834B4-1A09-4E99-B1DB-A18C8C45355F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67D834B4-1A09-4E99-B1DB-A18C8C45355F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3443F829-27BD-4C9B-A0A2-A54065E7770D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3443F829-27BD-4C9B-A0A2-A54065E7770D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3443F829-27BD-4C9B-A0A2-A54065E7770D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3443F829-27BD-4C9B-A0A2-A54065E7770D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
